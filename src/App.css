@@ -1,0 +1,40 @@
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+  }
+
+  .counter-app {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    max-width: fit-content;
+    border-color: #aaa;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .counter-app h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  } 
+
+  .counter-app button {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 40px;
+    padding: 5px 10px;
+    }
+  
+    .counter-app button:hover {
+      border-color: #676666;
+   
+  }
