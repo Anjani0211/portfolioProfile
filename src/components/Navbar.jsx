@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="pt-8">
@@ -8,13 +10,13 @@ const Navbar = () => {
 
           <ul className="flex justify-evenly gap-4">
             <li>
-              <a href="#contact">Services</a>
+            <Link to="/blogs">Blogs</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+            <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
