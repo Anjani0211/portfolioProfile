@@ -16,7 +16,7 @@ const HeroSection = () => {
           alt="Anjani Kumar"
         />
         <span className="flex justify-around mt-4 text-xl">
-          <span className="bg-orange-600 rounded-full text-base px-2 text-white hover:bg-black ">
+          <span className="bg-orange-600 rounded-full text-base px-2 text-white hover:bg-black cursor-pointer">
             <FontAwesomeIcon icon={faMedium} /> @anjani0211
           </span>
           <FontAwesomeIcon icon={faLinkedin} className="hover:text-orange-600 hover:scale-110 transition-all duration-200 delay-100 cursor-pointer" />
